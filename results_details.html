@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>results details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b3d9ff;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .container h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .container button {
+            background-color: #ff5d00;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .container button:hover {
+            background-color: #df5100;
+        }
+        .character {
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Your Result is :</h2>
+        <form>
+            <div class="results"></div>
+
+            <button type="submit">Retry</button>
+            <button type="submit">Done</button>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,39 +1,68 @@
-       body {
-            font-family: Arial, sans-serif;
-            background-color: #b3d9ff;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .container h2 {
-            margin-bottom: 20px;
-            font-size: 24px;
-        }
-        
-        .container button {
-            background-color: #ff5d00;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .container button:hover {
-            background-color: #df5100;
-        }
-        .character {
-            position: absolute;
-            left: 20px;
-            bottom: 20px;
-            width: 150px;
-            height: auto;
-        }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b3d9ff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+.container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.container button {
+  background-color: #ff5d00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container button:hover {
+  background-color: #c94a00;
+}
+.character {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 150px;
+  height: auto;
+}
+#answer {
+  display: block;
+  height: auto;
+  padding: 1vw;
+  margin: 10px 0px 14px 1px;
+  font-size: 1.4vw;
+  border: none;
+  background-color: rgb(220, 255, 255);
+  border-radius: 10px;
+}
+#answer:hover {
+  border: none;
+  background-color: rgb(164, 255, 255);
+}
+#resultss {
+display: none;
+}
+
+
+#clearButton {
+  background-color: #ff5d00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
